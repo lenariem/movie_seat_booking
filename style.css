@@ -16,6 +16,36 @@ body {
     margin: 0;
 }
 
+button.mode {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+    transition: 0.4s all;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+button.mode:hover {
+    transform: scale(1.2);
+}
+
+.mode_img {
+    width: 100%;
+    height:100%;
+    object-fit: contain;
+    margin: 0;
+    padding: 0'
+
+}
+.light-mode {
+    background-color: rgba(255, 228, 228, 0.829);
+    color: black;
+}
+
 .movie-container {
     margin: 20px 0;
 }
@@ -116,3 +146,4 @@ p.text {
 p.text span {
     color: #6feaf6;
 }
+
