@@ -17,7 +17,10 @@ body {
     justify-content: center;
     height: 100vh;
     font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
     margin: 0;
+    padding: 1%;
+    position: relative;
 }
 
 button.mode {
@@ -42,9 +45,10 @@ button.mode:hover {
     height:100%;
     object-fit: contain;
     margin: 0;
-    padding: 0'
+    padding: 0;
 
 }
+
 .light-mode {
     background-color: rgba(255, 228, 228, 0.829);
     color: black;
@@ -58,8 +62,8 @@ button.mode:hover {
     background-color: #fff;
     border: 0;
     border-radius: 5px;
-    font-size: 14px;
-    margin-left: 10px;
+    font-size: 1rem;
+    margin-left: 10px ;
     padding: 5px 15px 5px 15px;
     cursor: pointer;
     -moz-appearance: none;
@@ -75,8 +79,8 @@ button.mode:hover {
 
 .seat {
     background-color: #444451;
-    height: 12px;
-    width: 15px;
+    height: 21px;
+    width: 24px;
     margin: 3px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -86,6 +90,7 @@ button.mode:hover {
     font-style: italic;
     color: white;
     text-shadow: 1px 1px 2px black;
+    transition: 0.2s all;
 
 }
 
@@ -107,7 +112,7 @@ button.mode:hover {
 
 .seat:not(.occupied):hover {
     cursor: pointer;
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
 
 /* do not allow to scale seats in a legend */
@@ -143,7 +148,7 @@ button.mode:hover {
 
 .screen {
     background-color: #fff;
-    height: 70px;
+    height: 80px;
     width: 100%;
     margin: 15px 0;
     transform: rotateX(-45deg);
