@@ -3,6 +3,7 @@ const container = document.querySelector('.container');
 const seats = document.querySelectorAll('.row .seat:not(.occupied)');
 const count = document.getElementById('count');
 const total = document.getElementById('total');
+const clearBtn = document.getElementById('clearBtn');
 const movieSelect = document.getElementById('movie');
 
 populateUI();
@@ -78,5 +79,13 @@ container.addEventListener('click', (e) => {
     }
 })
 
+
+
 //Initial count and total set
 updateSelectedCount();
+
+//clear local storage
+clearBtn.addEventListener('click', () => {
+    localStorage.clear();
+    location.reload();
+});
