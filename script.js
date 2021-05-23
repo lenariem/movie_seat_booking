@@ -7,7 +7,6 @@ const movieSelect = document.getElementById('movie');
 
 let ticketPrice = +movieSelect.value;
 
-
 // Dark/Light mode
 function toggleMode() {
     const element = document.body;
@@ -26,6 +25,7 @@ function setMovieData(movieIndex, moviePrice) {
 //Update total and count
 function updateSelectedCount() {
     const selectedSeats = document.querySelectorAll('.row .seat.selected');
+    //console.log("selected seats: " + selectedSeats.forEach(item => console.log(item)));
 
     const seatsIndex = [...selectedSeats].map(seat =>
         [...seats].indexOf(seat)
@@ -34,7 +34,7 @@ function updateSelectedCount() {
     localStorage.setItem('selectedSeats', JSON.stringify(seatsIndex));
 
     const selectedSeatsCount = selectedSeats.length;
-
+    
     count.innerText = selectedSeatsCount;
     total.innerText = selectedSeatsCount * ticketPrice;
 }
