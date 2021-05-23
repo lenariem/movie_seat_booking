@@ -76,6 +76,12 @@ button.mode:hover {
     margin: 3px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    font-size: 8px;
+    text-align: center;
+    padding:1%;
+    font-style: italic;
+    color: cornflowerblue;
+
 }
 
 .seat.selected {
@@ -144,6 +150,7 @@ p.text {
 }
 
 p.text span {
-    color: #6feaf6;
+    color: #4fdfa7;
+    font-weight: 700;
 }
 
