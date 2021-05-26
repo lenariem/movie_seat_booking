@@ -1,5 +1,4 @@
 # Movie Seat Booking
-UI with movie select, screen, seats, legend & seat info;
 **to take a look please click this link:** 
 
 https://frontend-rest-vercel.vercel.app/ 
