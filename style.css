@@ -26,6 +26,7 @@ main {
     align-items: center;
     justify-content: center;
     margin-top: 3%;
+    
 }
 
 button.mode {
@@ -61,8 +62,14 @@ button.mode:hover {
 .movie-container {
     margin: 20px 0;
 }
+@media(max-width: 700px) {
+    .movie-container {
+    margin-top: calc(50px + 5%); 
+    }
+}
 
 .movie-container select {
+    position: relative;
     background-color: #fff;
     border: 0;
     border-radius: 5px;
@@ -74,6 +81,8 @@ button.mode:hover {
     -webkit-appearance: none;
     appearance: none;
 }
+
+
 
 .container {
     /* 3d effect for screen */
@@ -180,7 +189,7 @@ p.text span {
 
 div.clearBtn {
     width: 100%;
-    margin-top: 1%;
+    margin-top: 2%;
 }
 
 button.clearLS {

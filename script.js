@@ -116,11 +116,6 @@ clearBtn.addEventListener("click", () => {
         localStorage.removeItem(localStorage.key(i))
     }
   }
-    
-  /* localStorage.removeItem("selectedMovieIndex");
-  localStorage.removeItem("selectedMoviePrice");
-  localStorage.removeItem("selectedSeats"); */
-    
-  //localStorage.clear();
+  
   location.reload();
 });
