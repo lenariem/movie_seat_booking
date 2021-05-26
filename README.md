@@ -1,14 +1,14 @@
 # Movie Seat Booking
 **to take a look please click this link:** 
 
-https://frontend-rest-vercel.vercel.app/ 
+https://lenariem.github.io/movie_seat_booking/
 
 ### Technologies used: 
 * JavaScript;
 * CSS;
 * HTML;
 * Local Storage;
-* responsive for different devices
+* responsive for different devices.
 
 ### User can:
 * select/deselect seats in cinema;
