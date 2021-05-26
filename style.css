@@ -11,16 +11,21 @@
 body {
     background-color: #242333;
     color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     height: 100vh;
     font-family: 'Lato', sans-serif;
     font-size: 1.1rem;
     margin: 0;
     padding: 1%;
     position: relative;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
 }
 
 button.mode {
@@ -100,11 +105,11 @@ button.mode:hover {
     background-color: #fff;
 }
 
-.seat:nth-of-type(2) {
+.seat:nth-of-type(3) {
     margin-right: 18px;
 }
 
-.seat:nth-last-of-type(2) {
+.seat:nth-last-of-type(3) {
     margin-left: 18px;
 }
 
@@ -142,6 +147,16 @@ button.mode:hover {
 
 .row {
     display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.row_number:nth-of-type(1) {
+    margin-right: 12px;
+}
+
+.row_number:nth-last-of-type(1) {
+    margin-left: 12px;
 }
 
 .screen {
@@ -161,4 +176,21 @@ p.text span {
     color: var(--selected-color);
     font-weight: 700;
     text-shadow: 1px 1px 2px black;
+}
+
+div.clearBtn {
+    width: 100%;
+    margin-top: 1%;
+}
+
+button.clearLS {
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(207, 13, 13, 0.52);
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 0.8%;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
 }
