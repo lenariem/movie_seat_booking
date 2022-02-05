@@ -8,6 +8,7 @@ https://lenariem.github.io/movie_seat_booking/
 * CSS;
 * HTML;
 * Local Storage;
+* Cypress;
 * responsive for different devices.
 
 ### User can:
